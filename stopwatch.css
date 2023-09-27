@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+body{
+
+    background-image: linear-gradient(to right bottom, #d2d2d2, #dddddd, #e8e8e8, #f4f4f4, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+#mainSection{
+
+    background-image: linear-gradient(to right bottom, #6990af, #6699b2, #66a2b3, #6aaab2, #73b1b0);
+    width: 800px;
+    height: 180px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+#stopNumbers{
+
+    background: rgba(135, 4, 4, 0);
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+}
+#cron{
+    
+    font-size: 62pt;
+    font-family: 'Prompt', sans-serif;
+    background: rgba(255, 255, 0, 0);
+    margin: auto;
+}
+#infCron{
+
+    font-size: 18pt;
+    background: rgba(53, 7, 190, 0);
+    width: 470px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -30px;
+    letter-spacing: 1px;
+}
+#btnsCron{
+
+    background: rgba(128, 128, 128, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    margin-top: -150px;
+}
+button{
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14pt;
+    color: #658dac;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+button:hover{
+
+    color: white;
+    transform: scale(1.1);
+}
+#btnStart:hover{
+
+    background: rgb(49, 194, 49);
+}
+#btnPause:hover{
+
+    background: rgb(184, 194, 49);
+}
+#btnStop:hover{
+
+    background: rgb(194, 71, 49);
+}
+#btnStep:hover{
+
+    background: rgb(49, 170, 194);
+}
+#getSteps{
+
+    margin: auto;
+    background: rgba(139, 8, 8, 0);
+    text-align: center;
+}
+h2{
+
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.36);
+    font-size: 18pt;
+    transition: 0.4s;
+}
